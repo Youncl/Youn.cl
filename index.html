@@ -6,40 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css">
+  <title>Youn</title>
+  <style> html {
+  scroll-behavior: smooth;
+}
+
+</style>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <div class="container-fluid"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar13">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbar13">
-        <img class="img-fluid d-block" src="media/img/younmini.png" width="70" style="">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"> <a class="nav-link" href="#">
-              <i class="fa fa-instagram fa-fw"></i>
-            </a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">
-              <i class="fa fa-facebook-official fa-fw"></i>
-            </a> </li>
-        </ul>
+  <nav class="navbar bg-dark navbar-dark fixed-top">
+    <div class="container justify-content-center">
+      <div class="row">
+        <div class="col-sm text-right">
+          <div class="row"> <a class="nav-link text-body" href="#sec-pellet">El Pellet</a> </div>
+        </div>
+        <div class="col-sm text-right">
+          <div class="row"> <a class="nav-link text-nowrap text-body" href="#sec-donde">¿Donde comprar?</a> </div>
+        </div>
+        <div class="col-sm">
+          <img class="d-block" src="media/img/younnav.svg" height="40">
+        </div>
+        <div class="col-sm">
+          <div class="row"> <a class="nav-link text-nowrap text-body" href="#sec-quienes">¿Quienes Somos?</a> </div>
+        </div>
+        <div class="col-sm text-left">
+          <div class="row"> <a class="nav-link text-body" href="#sec-contacto">Contacto</a> </div>
+        </div>
       </div>
     </div>
   </nav>
-  <div class="text-white align-items-center d-flex text-center pt-4 pb-5 h-100" style="background-image: linear-gradient(rgba(61, 66, 30, 0.4), rgba(0, 0, 0, 0.1)), url(&quot;media/img/mainbg.jpg&quot;); background-position: center center, center center; background-size: cover, cover; background-repeat: repeat, repeat;">
+  <div class="flex-grow-1 text-white d-flex text-center pt-4 pb-5 h-100 flex-column align-items-center justify-content-center" style="	background-image: linear-gradient(to bottom, rgba(61, 66, 30, 0.4), rgba(0, 0, 0, 0.1)), url(&quot;media/img/mainbg.jpg&quot;);	background-position: top left, center center;	background-size: 100%, cover;	background-repeat: repeat, no;" id="sec-main">
     <div class="container pb-5 pt-5">
       <div class="row">
-        <div class="mx-auto col-lg-8 col-md-10">
+        <div class="mx-auto flex-grow-1 col-lg-8 col-md-10h-100">
           <div class="col-md-12 pt-0"><img class="img-fluid d-block mx-auto pb-4 pl-1" src="media/img/logo.png" width="225.829" height="250"></div>
-          <h3 style="	text-shadow: 1px 2px 4px white;font-weight: 500" class="text-uppercase text-dark">Pellet sanitario para mascotas<br>hecho con madera reciclada de la patagonia chilena.</h3>
+          <h4 style="	text-shadow: 1px 2px 4px white;font-weight: 300" class="text-dark text-uppercase pb-5" contenteditable="true">Pellet sanitario para mascotas<br>hecho con madera reciclada&nbsp;<br>de la patagonia chilena.</h4>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12"><i class="fa fa-5x fa-angle-down mt-5 pt-4" style=""></i></div>
+        <div class="col-md-12 pb-5"><a class="btn btn-lg" style="background-color: transparent;" href="#sec-pellet"><i class="fa fa-5x fa-angle-down mt-5 pt-4" style="">
+            </i></a></div>
       </div>
     </div>
   </div>
-  <div class="text-center py-2">
+  <div class="text-center py-3" id="sec-pellet">
     <div class="container">
       <div class="row pt-2">
         <div class="col-md-12 text-center">
@@ -68,11 +79,11 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12"><i class="fa fa-angle-down pt-3 text-body fa-4x"></i></div>
+        <div class="col-md-12"><a class="nav-link text-nowrap text-body" href="#sec-producto"><i class="fa fa-angle-down pt-3 text-body fa-4x "></i></a></div>
       </div>
     </div>
   </div>
-  <div class="text-center text-md-right py-0 pt-4 pb-3" style="	background-image: url(media/img/bgpellet.png);	background-position: center;	background-size: cover;	background-repeat: no;	background-attachment: fixed;">
+  <div class="text-center text-md-right py-0 pt-4 pb-3" style="	background-image: url(media/img/bgpellet.png);	background-position: center;	background-size: cover;	background-repeat: no;	background-attachment: fixed;" id="sec-producto">
     <div class="container">
       <div class="row">
         <div class="col-md-6"><img class="img-fluid d-block" src="https://static.pingendo.com/img-placeholder-mobile.svg"></div>
@@ -101,11 +112,11 @@
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-md-12"><i class="fa fa-angle-down pt-3 text-body fa-4x"></i></div>
+        <div class="col-md-12"><a class="nav-link text-nowrap text-body" href="#sec-donde"><i class="fa fa-angle-down pt-3 text-body fa-4x "></i></a></div>
       </div>
     </div>
   </div>
-  <div class="text-center pb-3 pt-2">
+  <div class="text-center pb-3 pt-2" id="sec-donde">
     <div class="container">
       <div class="row">
         <div class="mx-auto text-center col-lg-6">
@@ -125,20 +136,16 @@
         </div>
         <div class="p-0 order-2 order-md-1 col-lg-6"> <iframe width="100%" height="350" src="https://maps.google.com/maps?hl=en&amp;q=Limache&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" scrolling="no" frameborder="0"></iframe> </div>
       </div>
-    </div>
-  </div>
-  <div class="pb-2">
-    <div class="container">
       <div class="row">
-        <div class="col-md-12 text-center"><i class="fa fa-angle-down pt-3 text-body fa-4x text-center"></i></div>
+        <div class="col-md-12"><a class="nav-link text-nowrap text-body" href="#sec-quienes"><i class="fa fa-angle-down pt-3 text-body fa-4x "></i></a></div>
       </div>
     </div>
   </div>
-  <div class="text-center text-md-center w-100 pt-5 pb-5" style="	background-image: url(media/img/bgpellet.png);	background-position: center;	background-size: cover;	background-repeat: no;	background-attachment: fixed;">
+  <div class="text-center text-md-center w-100 pt-5 pb-5" style="	background-image: url(media/img/bgpellet.png);	background-position: center;	background-size: cover;	background-repeat: no;	background-attachment: fixed;" id="sec-quienes">
     <div class="container">
       <div class="row">
         <div class="bg-white p-5 mx-auto col-md-12 col-10 text-center" style="	background-image: linear-gradient(to bottom, #262D17, #262D17);	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
-          <h3 class="align-items-center display-3">Quienes somos<br></h3>
+          <h1 class="text-center pb-3">Quienes somos<br></h1>
           <p class="mb-4 pt-2 text-center">Somos un emprendimiento familiar de la quinta región, nuestro amor por los animales y nuestro interés por cuidar el medio ambiente nos llevó a desarrollar Youn. Nos abastecemos de aserraderos nacionales de la Patagonia chilena.<br><br>-Hay que escribir algo más acá-</p><i class="fa fa-2x fa-leaf"></i>
         </div>
       </div>
@@ -149,35 +156,33 @@
       <div class="row">
         <div class="xt-center bg-light">
           <h1>Contactanos</h1>
-          <p>¿Tienes una tienda y quieres vender nuestro producto?, ¿Quieres saber mas sobre el pellet de madera?, todas las dudas que tengas las podemos responder, no dudes en escribirnos.</p><i class="fa fa-angle-down text-body fa-4x text-center pt-2"></i>
+          <p>¿Tienes una tienda y quieres vender nuestro producto?, ¿Quieres saber mas sobre el pellet de madera?, todas las dudas que tengas las podemos responder, no dudes en escribirnos.</p><a class="nav-link text-nowrap text-body" href="#sec-contacto"><i class="fa fa-angle-down pt-3 text-body fa-4x "></i></a>
         </div>
       </div>
     </div>
   </div>
-  <div class="" style="">
+  <div class="" style="" id="sec-contacto">
     <div class="container">
       <div class="row">
       </div>
       <div class="row">
         <div class="col-md-5 text-right pr-4 pt-3" style="">
           <p class="lead" style=""> <b>Contacto</b></p>
-          <p> <a href="#">+1 234 567 89</a> </p>
-          <p><a href="#">contacto@youn.cl</a></p>
+          <p> <a href="tel:+56955377315">(+56) 9 5537 7315</a> </p>
+          <p><a href="mailto:contacto@youn.cl">contacto@youn.cl</a></p>
           <p class="lead mt-3"> <b>Ventas</b></p>
-          <p><a href="#">ventas@youn.cl</a></p>
+          <p><a href="mailto:ventas@youn.cl">ventas@youn.cl</a></p>
           <p class="lead mt-3"> <b>Sociales</b></p>
-          <p><a href="#">sociales@youn.cl</a></p>
+          <p><a href="mailto:sociales@youn.cl">sociales@youn.cl</a></p>
         </div>
         <div class="col-md-7 py-2 pl-3">
           <h3 class="mb-3">Escribenos un mensaje y nos pondremos en contacto</h3>
           <form>
             <div class="form-row">
-              <div class="form-group col-md-6"> <input type="text" class="form-control" id="form36" placeholder="Nombre"> </div>
-              <div class="form-group col-md-6"> <input type="text" class="form-control" id="form37" placeholder="Teléfono"> </div>
+              <div class="form-group col-md-12"> <input type="text" class="form-control" id="form36" placeholder="Nombre" required="required"> </div>
             </div>
-            <div class="form-group"> <input type="email" class="form-control" id="form39" placeholder="Email"> </div>
-            <div class="form-group"> <input type="text" class="form-control" id="form42" placeholder="Asunto"> </div>
-            <div class="form-group"> <textarea class="form-control" id="form43" rows="3" placeholder="Mensaje"></textarea> </div> <button type="submit" class="btn btn-primary">Enviar</button>
+            <div class="form-group"> <input type="email" class="form-control" id="form39" placeholder="Email" required="required"> </div>
+            <div class="form-group"> <textarea class="form-control" id="form43" rows="3" placeholder="Mensaje" style="margin-top: 0px; margin-bottom: 0px; height: 152px;"></textarea> </div> <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
         </div>
       </div>
@@ -186,9 +191,9 @@
           <div class="row">
             <div class="col-md-12 d-flex align-items-center justify-content-center my-3"> <a href="#">
                 <i class="d-block fa fa-whatsapp fa-lg mr-2 text-body"></i>
-              </a> <a href="#">
+              </a> <a href="https://wa.me/56955377315">
                 <i class="d-block fa fa-instagram fa-lg mx-2 text-body"></i>
-              </a> <a href="#">
+              </a> <a href="https://www.instagram.com/youn.cl">
                 <i class="fa fa-facebook-official fa-lg ml-2 d-block text-body"></i>
               </a> </div>
           </div>
@@ -199,10 +204,11 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" style=""></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" style="">
   <a href="https://wa.me/56955377315" class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
   </a>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>
