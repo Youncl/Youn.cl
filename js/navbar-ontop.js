@@ -7,7 +7,22 @@
 (function() {
 
 	var className = "navbar-ontop"
-	
+    
+    $(document).ready(function() {
+
+        $(window).on('resize', function() {
+           if ($(window).width() <= 640 ) {
+              $('.navbar').hide();
+           }   else {
+              $('.navbar').show();
+           }
+        }).trigger("resize");
+      
+        $('.toggle').on('click', function() {
+           $('.navbar').slideToggle('slow');
+        });
+      
+      });	
 	// we start hidden, to avoid flickering
 	document.write("<style id='temp-navbar-ontop'>.navbar {opacity:0; transition: none !important}</style>")
 
